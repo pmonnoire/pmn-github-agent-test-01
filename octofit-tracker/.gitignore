@@ -1,0 +1,12 @@
+# Ignore Python virtual environments
+backend/venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django stuff:
+db.sqlite3
+
+# Node modules for frontend
+frontend/node_modules/
