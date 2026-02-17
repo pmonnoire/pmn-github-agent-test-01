@@ -6,7 +6,7 @@ const Teams = () => {
   const [error, setError] = useState(null);
 
   const API_BASE_URL = `https://${process.env.REACT_APP_CODESPACE_NAME || 'localhost'}-8000.app.github.dev/api`;
-  const API_ENDPOINT = `${API_BASE_URL}/teams/`;
+  const API_ENDPOINT = `https://${process.env.REACT_APP_CODESPACE_NAME || 'localhost'}-8000.app.github.dev/api/teams/`;
 
   useEffect(() => {
     const fetchTeams = async () => {
